@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Grade Calculator</string>
+    <string name="welcome">Welcome to Grade Calculator!</string>
+    <string name="gradeCalcMenuText">Grade Calculator Menu</string>
+    <string name="GPATitleText">Percentage to GPA</string>
+    <string name="calculate">Calculate</string>
+    <string name="GPAInput">Grade</string>
+    <string name="GPAOutput">GPA:</string>
+    <string name="GPALetterTitleText">GPA to Letter Grade</string>
+    <string name="GPALetterOutput">Letter Grade:</string>
+    <string name="toggle">Toggle</string>
+    <string name="toggleText">Press \"Toggle Mode\" to toggle between \"GPA to Letter\" and \"Letter to GPA\" modes</string>
+    <string name="gradeToGPADesc">Enter numerical grade below and press \"Calculate\" to receive a GPA</string>
+    <string name="testDesc">Enter number of questions, along with number of wrong answers below to
+        receive a percent grade, fractional grade, and letter grade</string>
+    <string name="testTitle">Test Calculator</string>
+    <string name="outputPercent">Percentage:</string>
+    <string name="outputLetter">Letter:</string>
+    <string name="outputFraction">Fraction:</string>
+    <string name="numQuestions">Number of Questions</string>
+    <string name="numWrong">Number of Wrong Questions</string>
+    <string name="gradeCalcTitle">Grade Calculator</string>
+    <string name="gradeCalcDesc">Enter grade percentage and grade weight into provided input fields and press
+        \"Calculate\" to receive you average grade. </string>
+    <string name="grade">Grade</string>
+    <string name="weight">Weight</string>
+    <string name="addRow">Add Row</string>
+    <string name="save">Save</string>
+    <string name="historyTitle">History</string>
+    <string name="historyDesc">View previous saved calculations here</string>
+    <string name="gradeOutput">Grade:</string>
+    <string name="clear">Clear</string>
+    <string name="about">About the App</string>
+    <string name="aboutDesc">This grade calculator app contains five grade-related calculators to help
+        calculate this like grade weights, test marks, and GPAs.\n\nThe grade average calculator takes in
+        percentage and weight and outputs your overall grade. The test score calculator takes in the
+        number of questions, and the number of wrong questions and outputs percentage, fraction, and
+        letter grade. The percentage to GPA calculator takes in a numeral grade percentage and outputs GPA.
+        Finally, the GPA to letter calculator has two modes to toggle between GPA to letter and letter to GPA,
+        where the calculators take in either GPA or a letter and output the opposite.\n\nAdditionally, there
+        is an exam scheduler where you can save the date of an exam and the app will send a notification
+        a day before the saved exam date.</string>
+    <string name="settings">Settings</string>
+    <string name="darkModeButton">Enable Dark Mode</string>
+    <string name="darkModeButtonDisable">Disable Dark Mode</string>
+    <string name="submitBug">Submit Bug Report</string>
+    <string name="sendBug">Submit Bug</string>
+    <string name="clearCache">Clear Cache</string>
+    <string name="examTitle">Exam Scheduler</string>
+    <string name="examDesc">To set an exam timer notification, select the day of your exam and give it
+        a unique name to save as. The app will send a notification a day before your set exam date</string>
+    <string name="saveNotification">Save Date</string>
+    <string name="notificationName">Save As</string>
+    <string name="viewSaves">View Saves</string>
+    <string name="examSavesTitle">Exam Notifications</string>
+    <string name="examSavesDesc">This list contains all saved exam notifications. Use the clear button
+    below to clear all notifications</string>
+    <string name="backExam">Back</string>
+    <string name="clearNotifications">Clear</string>
+</resources>

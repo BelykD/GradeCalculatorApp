@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GradeCalculator"
+        tools:targetApi="31">
+            <activity
+                android:name=".MainMenu"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity
+                android:name=".Settings"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".History"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".GradeCalculatorMenu"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".GradeCalculator"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".TestCalculator"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".PercentToGPACalculator"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".GPAToLetterCalculator"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".ExamScheduler"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".About"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".ExamSaves"
+                android:exported="true">
+            </activity>
+            <activity
+                android:name=".SendBugReport"
+                android:exported="true">
+            </activity>
+            <receiver
+                android:name=".ExamReceiver"
+                android:enabled="true"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.BOOT_COMPLETED" />
+                </intent-filter>
+            </receiver>
+
+    </application>
+
+</manifest>

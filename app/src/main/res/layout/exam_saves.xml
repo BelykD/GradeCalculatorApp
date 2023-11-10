@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:background="#a2bbcf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/examSavesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="bottom"
+            android:text="@string/examSavesTitle"
+            android:textColor="#1d3849"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/examSavesDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/examSavesDesc"
+            android:textAlignment="center"
+            android:textColor="#1d3849"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/examListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/backExam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#00A36C"
+            android:fontFamily="@font/designer"
+            android:text="@string/backExam"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/clearNotifications"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#00A36C"
+            android:fontFamily="@font/designer"
+            android:text="@string/clearNotifications"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</LinearLayout>

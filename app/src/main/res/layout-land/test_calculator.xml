@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a2bbcf"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bugReportTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="bottom"
+            android:text="@string/testTitle"
+            android:textColor="#1d3849"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/testDescText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/testDesc"
+            android:textAlignment="center"
+            android:textColor="#1d3849"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/numQuestionText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/numQuestions"
+            android:textColor="#1d3849"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/weight4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#142f44"
+            android:fontFamily="@font/designer"
+            android:hint="10"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/numWrongText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/numWrong"
+            android:textColor="#1d3849"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/inputWrong"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#142f44"
+            android:fontFamily="@font/designer"
+            android:hint="0"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:id="@+id/outputPercent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/outputPercent"
+            android:textColor="#1d3849"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/outputFraction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/outputFraction"
+            android:textColor="#1d3849"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/outputLetter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/designer"
+            android:gravity="center"
+            android:text="@string/outputLetter"
+            android:textColor="#1d3849"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#205b7a"
+            android:fontFamily="@font/designer"
+            android:text="@string/calculate"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/saveGradeTest"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00A36C"
+            android:fontFamily="@font/designer"
+            android:text="@string/save"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</LinearLayout>
